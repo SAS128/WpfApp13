@@ -7,11 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" Margin="100,51,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="ComboBoxx" HorizontalAlignment="Left" Margin="100,51,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
         <Label Content="Информация" HorizontalAlignment="Left" Margin="544,156,0,0" VerticalAlignment="Top"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="120,288,0,0" VerticalAlignment="Top" Width="72" Height="17"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="318,167,0,0" VerticalAlignment="Top" Width="72" Height="17"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="386,304,0,0" VerticalAlignment="Top" Width="72" Height="18"/>
 
     </Grid>
 </Window>
